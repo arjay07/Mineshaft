@@ -1,0 +1,98 @@
+<faqs>
+  <category name="General">
+    <faq>
+      <q>Who made this game?</q>
+      <a>This game is under development by Space Walrus Studios.</a>
+    </faq>
+    <faq>
+      <q>It's not working!!!</q>
+      <a>If you're experiencing any issues, please consult the forums to see if anyone has a similar issue. If that is not the case, create a new topic in the appropriate forum.</a>
+    </faq>
+    <faq>
+      <q>Where do I find your forums?</q>
+      <a>Our forums are located at www.space-walrus.net/</a>
+    </faq>
+    <faq>
+      <q>It is so slow!! :( </q>
+      <a>The default settings may not suit your device. Try turning down the render distance.</a>
+    </faq>
+  </category>
+    <category name="Gameplay">
+        <faq>
+        <q>What is this game about?</q>
+        <a>Minebuilder is a sandbox game like minecraft and infiniminer, you can build and destroy anything in your world. But at night, monsters will come and try to destroy it!</a>
+    </faq>
+    <faq>
+        <q>What do I do?</q>
+        <a>First, you might want to get some wood by punching trees. Create a workbench from your wood, and create tools such as a pickaxe. Start mining to go underground.</a>
+    </faq>
+    <faq>
+        <q>Is there a goal?</q>
+        <a>That's up to yourself. We don't give you any goals.</a>
+    </faq>
+        <faq>
+            <q>And after I have filled my inventory with hundreds of diamonds?</q>
+            <a>Well, first of all. You create a chest to store your diamonds in. Then, you can focus building stuff instead of demolishing it, build a nice mansion, a railroad using carts, everything is possible.</a>
+        </faq>
+        <faq>
+            <q>How do I craft items?</q>
+            <a>Tap on a workbench, or the inventory button. Then you can drag and drop items from your inventory to the crafting area. Tap any results you get in the big result area, to move the results to your inventory.</a>
+        </faq>
+        <faq>
+            <q>I don't know any recipes!</q>
+            <a>You can find a recipe list on our forums! It's a challenge for you to find them out yourself though.</a>
+        </faq>
+        <faq>
+            <q>The dark night is annoying. Anything I can do about it?</q>
+            <a>Yes, you can craft a bed. When you tap your bed at night, you will go to sleep, and a few seconds later you wake up and it's a new day!</a>
+        </faq>
+        <faq>
+            <q>Are the worlds endless?</q>
+            <a>Yes.</a>
+        </faq>
+    </category>
+    <category name="Multiplayer">
+        <faq>
+            <q>How do I get an account?</q>
+            <a>You can register an account for use with multiplayer or the forums at www.space-walrus.net</a>
+        </faq>
+        <faq>
+            <q>How do I play multiplayer?</q>
+            <a>First of all, you will need a server to play on, the best place to start looking is on our forums, look for the Servers section.</a>
+        </faq>
+        <faq>
+            <q>Okay, I found a server I like, what now?</q>
+            <a>Look for something named address or IP, you need to enter that in the host field of the multiplayer screen.</a>
+        </faq>
+        <faq>
+            <q>What is a "whitelist"?</q>
+            <a>A list with people that the server trusts. Only people on a whitelist can play on a server, if the server has one. The opposite is a blacklist. People on a blacklist can't join a server, while everyone else can.</a>
+        </faq>
+    </category>
+    <category name="Credits">
+        <faq>
+            <q>Dick van Kempen</q>
+            <a>Pixel art</a>
+        </faq>
+        <faq>
+            <q>Tristan Weber</q>
+            <a>Sounds, music</a>
+        </faq>
+        <faq>
+            <q>Bram Buurlage</q>
+            <a>Client programming</a>
+        </faq>
+        <faq>
+            <q>Rens Rikkerink</q>
+            <a>Server programming</a>
+        </faq>
+        <faq>
+            <q>Alex Terziev</q>
+            <a>Models, textures</a>
+        </faq>
+        <faq>
+            <q>(C) 2011-2013 Space Walrus B.V.</q>
+            <a>Do not distribute.</a>
+        </faq>
+    </category>
+</faqs>

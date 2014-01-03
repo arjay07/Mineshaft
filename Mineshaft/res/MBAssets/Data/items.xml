@@ -1,0 +1,273 @@
+<items>
+    <item id="63">
+        <name>sign</name>
+    </item>
+    
+    <item id="103">
+        <name>carrot</name>
+        
+        <equip type="hat">
+            <health>6</health>
+            <energy>50</energy>
+            <defense>4</defense>
+            <jumpheight>5</jumpheight>
+        </equip>
+    </item>
+    
+    <item id="116">
+        <name>painting</name>
+    </item>
+    
+    <item id="256">
+        <name>iron shovel</name>
+        <weight material="dirt">3</weight>
+    </item>
+
+    <item id="257">
+        <name>iron pickaxe</name>
+        <weight material="stone">3</weight>
+    </item>
+
+    <item id="258">
+        <name>iron axe</name>
+        <weight material="wood">3</weight>
+    </item>
+
+    <item id="262">
+        <name>arrow</name>
+        <equip type="boots">
+            <speed>5</speed>
+        </equip>
+    </item>
+
+    <item id="263">
+        <name>lump of coal</name>
+    </item>
+
+    <item id="264">
+        <name>raw diamond</name>
+        
+        <equip type="ring">
+            <health>50</health>
+            <defense>3</defense>
+            <attack>3</attack>
+        </equip>
+    </item>
+
+    <item id="265">
+        <name>iron ingot</name>
+    </item>
+    
+    <item id="410">
+        <name>copper ingot</name>
+    </item>
+
+    <item id="266">
+        <name>gold ingot</name>
+    </item>
+
+    <item id="267">
+        <name>iron sword</name>
+    </item>
+
+    <item id="268">
+        <name>bat</name>
+    </item>
+
+    <item id="269">
+        <name>wooden shovel</name>
+        <weight material="dirt">1</weight>
+    </item>
+
+    <item id="270">
+        <name>wooden pickaxe</name>
+        <weight material="stone">1</weight>
+    </item>
+
+    <item id="271">
+        <name>wooden axe</name>
+        <weight material="wood">1</weight>
+    </item>
+
+    <item id="272">
+        <name>stone sword</name>
+    </item>
+
+    <item id="273">
+        <name>stone shovel</name>
+        <weight material="dirt">2</weight>
+    </item>
+
+    <item id="274">
+        <name>stone pickaxe</name>
+        <weight material="stone">2</weight>
+    </item>
+
+    <item id="275">
+        <name>stone axe</name>
+        <weight material="wood">2</weight>
+    </item>
+
+    <item id="276">
+        <name>diamond sword</name>
+    </item>
+
+    <item id="277">
+        <name>diamond shovel</name>
+        <weight material="dirt">4</weight>
+    </item>
+
+    <item id="278">
+        <name>diamond pickaxe</name>
+        <weight material="stone">4</weight>
+    </item>
+
+    <item id="279">
+        <name>diamond axe</name>
+        <weight material="wood">4</weight>
+    </item>
+
+    <item id="280">
+        <name>stick</name>
+    </item>
+
+    <item id="283">
+        <name>gold sword</name>
+    </item>
+
+    <item id="284">
+        <name>gold shovel</name>
+        <weight material="dirt">3.9</weight>
+    </item>
+
+    <item id="285">
+        <name>gold pickaxe</name>
+        <weight material="stone">3.9</weight>
+    </item>
+
+    <item id="286">
+        <name>gold axe</name>
+        <weight material="wood">3.9</weight>
+    </item>
+    
+    <item id="300">
+        <name>plow</name>
+    </item>
+
+    <item id="325">
+        <name>bucket</name>
+    </item>
+
+    <item id="326">
+        <name>bucket</name>
+    </item>
+
+    <item id="327">
+        <name>bucket</name>
+    </item>
+
+    <item id="385">
+        <name>bow</name>
+    </item>
+
+    <item id="400">
+        <name>fire</name>
+    </item>
+
+    <item id="401">
+        <name>gunpowder</name>
+    </item>
+
+    <item id="402">
+        <name>fur</name>
+    </item>
+
+    <item id="403">
+        <name>potion</name>
+    </item>
+    
+    <item id="404">
+        <name>saddle</name>
+    </item>
+
+    <item id="405">
+        <name>cart</name>
+    </item>
+    
+    <item id="406">
+        <name>magnetic substance</name>
+    </item>
+    
+    <item id="409">
+        <name>magnet</name>
+    </item>
+    
+    <item id="411">
+        <name>coil</name>
+    </item>
+    
+    <item id="412">
+        <name>brush</name>
+    </item>
+    
+    <item id="413">
+        <name>carrot soup</name>
+    </item>
+    
+    <item id="414">
+        <name>bread</name>
+    </item>
+    
+    <item id="415">
+        <name>Popcorn</name>
+    </item>
+
+    <item id="416">
+        <name>Mjolnir</name>
+    </item>
+    
+    <item id="417">
+        <name>trash</name>
+    </item>
+    
+    <item id="418">
+        <name>compost</name>
+    </item>
+	
+	<item id="419">
+        <name>Bunny Tail</name>
+    </item>
+	
+	<item id="420">
+        <name>Sinnew</name>
+    </item>
+	
+	<item id="421">
+		<name>Cooked Venison</name>
+	</item>
+	
+	<item id="422">
+		<name>Cooked Rabbit</name>
+	</item>
+	
+	<item id="423">
+		<name>Cooked Pork</name>
+	</item>
+	
+	<item id="424">
+		<name>Unicorn Steak</name>
+	</item>
+	
+	<item id="425">
+		<name>Venison</name>
+	</item>
+	
+	<item id="426">
+		<name>Pork</name>
+	</item>
+	
+	<item id="427">
+		<name>Rabbit Meat</name>
+	</item>
+	
+</items>

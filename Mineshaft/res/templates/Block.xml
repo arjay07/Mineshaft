@@ -1,0 +1,31 @@
+<block id="@id">
+	
+	<name>@name</name>
+	
+	<solid>@solid</solid>
+	<transparent>@transparent</transparent>
+	<opaque>@opaque</opaque>
+	<special>@special</special>
+	<visible>@visible</visible>
+	<removable>@removable</removable>
+	<liquid>@liquid</liquid>
+	<valuable>@valuable</valuable>
+	<active>@active</active>
+	<emittance>@emittance</emittance>
+	
+	<tool id="0" drop="@drop">@default_break</tool>
+	@tools
+	
+	<textures>
+		@default_tex
+		@top_tex
+		@bottom_tex
+		@front_tex
+		@back_tex
+		@left_tex
+		@right_tex
+	</textures>
+	
+	<category>@category</category>
+	
+</block>

@@ -1,0 +1,940 @@
+<recipes>
+    <layout>
+        <slot type = "input" x="94" y="73" size="48">item11</slot>
+        <slot type = "input" x="94" y="121" size="48">item12</slot>
+        <slot type = "input" x="94" y="169" size="48">item13</slot>
+        <slot type = "input" x="142" y="73" size="48">item21</slot>
+        <slot type = "input" x="142" y="121" size="48">item22</slot>
+        <slot type = "input" x="142" y="169" size="48">item23</slot>
+        <slot type = "input" x="190" y="73" size="48">item31</slot>
+        <slot type = "input" x="190" y="121" size="48">item32</slot>
+        <slot type = "input" x="190" y="169" size="48">item33</slot>
+        <slot type = "output" x="286" y="121" size="64">result</slot>
+        <alias>
+            <slot orig = "item11">item21</slot>
+            <slot orig = "item12">item22</slot>
+            <slot orig = "item21">item31</slot>
+            <slot orig = "item22">item32</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item22</slot>
+            <slot orig = "item12">item23</slot>
+            <slot orig = "item21">item32</slot>
+            <slot orig = "item22">item33</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item12</slot>
+            <slot orig = "item12">item13</slot>
+            <slot orig = "item21">item22</slot>
+            <slot orig = "item22">item23</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item31</slot>
+            <slot orig = "item12">item32</slot>
+            <slot orig = "item13">item33</slot>
+            <slot orig = "item21">item21</slot>
+            <slot orig = "item22">item22</slot>
+            <slot orig = "item23">item23</slot>
+            <slot orig = "item31">item11</slot>
+            <slot orig = "item32">item12</slot>
+            <slot orig = "item33">item13</slot>
+        </alias>
+        <alias>
+            <slot orig = "item21">item11</slot>
+            <slot orig = "item22">item12</slot>
+            <slot orig = "item23">item13</slot>
+            <slot orig = "item31">item21</slot>
+            <slot orig = "item32">item22</slot>
+            <slot orig = "item33">item23</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item12</slot>
+            <slot orig = "item12">item13</slot>
+            <slot orig = "item21">item22</slot>
+            <slot orig = "item22">item23</slot>
+            <slot orig = "item31">item32</slot>
+            <slot orig = "item32">item33</slot>
+        </alias>
+        <alias>
+            <slot orig = "item12">item11</slot>
+            <slot orig = "item13">item12</slot>
+            <slot orig = "item22">item21</slot>
+            <slot orig = "item23">item22</slot>
+            <slot orig = "item32">item31</slot>
+            <slot orig = "item33">item32</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item13</slot>
+            <slot orig = "item21">item23</slot>
+            <slot orig = "item31">item33</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item31</slot>
+            <slot orig = "item12">item32</slot>
+            <slot orig = "item13">item33</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item21</slot>
+            <slot orig = "item12">item22</slot>
+            <slot orig = "item13">item23</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item32</slot>
+            <slot orig = "item12">item33</slot>
+        </alias>
+    </layout>
+    <recipe>
+        <item11>1</item11>
+        <item12>1</item12>
+        <item13>1</item13>
+        <item21>1</item21>
+        <item22>1</item22>
+        <item23>1</item23>
+        <item31>1</item31>
+        <item32>1</item32>
+        <item33>1</item33>
+        <result>49</result>
+    </recipe>
+    <recipe>
+        <item11>17</item11>
+        <result count="4">5</result>
+    </recipe>
+    <recipe>
+        <item11>401</item11>
+        <item12>401</item12>
+        <item21>401</item21>
+        <item22>401</item22>
+        <result>46</result>
+    </recipe>
+    <recipe>
+        <item11>420</item11>
+        <item12>420</item12>
+        <item13>420</item13>
+        <item21>280</item21>
+        <item23>280</item23>
+        <item32>280</item32>
+        <result>385</result>
+    </recipe>
+    <recipe>
+        <item12>265</item12>
+        <item21>265</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item32>265</item32>
+        <result count="25">262</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>263</item11>
+        <item12>280</item12>
+        <result count="4">50</result>
+    </recipe>
+    <recipe>
+        <item11>12</item11>
+        <item12>12</item12>
+        <item21>12</item21>
+        <item22>12</item22>
+        <result>24</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item21>5</item21>
+        <item22>5</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item12>4</item12>
+        <item13>4</item13>
+        <item21>4</item21>
+        <item22>263</item22>
+        <item23>4</item23>
+        <item31>4</item31>
+        <item32>4</item32>
+        <item33>4</item33>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <item11>263</item11>
+        <item12>400</item12>
+        <result count="8">400</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>265</item12>
+        <item13>265</item13>
+        <item21>265</item21>
+        <item22>265</item22>
+        <item23>265</item23>
+        <item31>265</item31>
+        <item32>265</item32>
+        <item33>265</item33>
+        <result>42</result>
+    </recipe>
+    <recipe>
+        <item11>266</item11>
+        <item12>266</item12>
+        <item13>266</item13>
+        <item21>266</item21>
+        <item22>266</item22>
+        <item23>266</item23>
+        <item31>266</item31>
+        <item32>266</item32>
+        <item33>266</item33>
+        <result>41</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item21>265</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>265</item31>
+        <result>257</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>256</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>265</item12>
+        <item13>280</item13>
+        <result>267</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item21>265</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>292</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>265</item12>
+        <item21>265</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>258</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item21>5</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>5</item31>
+        <result>270</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>269</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item13>280</item13>
+        <result>268</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item21>5</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>271</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item21>192</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>192</item31>
+        <result>270</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>269</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <item13>280</item13>
+        <result>268</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <item21>192</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>271</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item21>193</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>193</item31>
+        <result>270</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>269</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <item13>280</item13>
+        <result>268</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <item21>193</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>271</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item21>194</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>194</item31>
+        <result>270</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>269</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <item13>280</item13>
+        <result>268</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <item21>194</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>271</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item21>4</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>4</item31>
+        <result>274</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>273</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item12>4</item12>
+        <item13>280</item13>
+        <result>272</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item12>4</item12>
+        <item21>4</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>275</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item21>174</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>174</item31>
+        <result>274</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>273</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item12>174</item12>
+        <item13>280</item13>
+        <result>272</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item12>174</item12>
+        <item21>174</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>275</result>
+    </recipe>
+    <recipe>
+        <item11>266</item11>
+        <item21>266</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>266</item31>
+        <result>285</result>
+    </recipe>
+    <recipe>
+        <item11>266</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>284</result>
+    </recipe>
+    <recipe>
+        <item11>266</item11>
+        <item12>266</item12>
+        <item13>280</item13>
+        <result>283</result>
+    </recipe>
+    <recipe>
+        <item11>266</item11>
+        <item12>266</item12>
+        <item21>266</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>286</result>
+    </recipe>
+    <recipe>
+        <item11>264</item11>
+        <item21>264</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <item31>264</item31>
+        <result>278</result>
+    </recipe>
+    <recipe>
+        <item11>264</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <result>277</result>
+    </recipe>
+    <recipe>
+        <item11>264</item11>
+        <item12>264</item12>
+        <item13>280</item13>
+        <result>276</result>
+    </recipe>
+    <recipe>
+        <item11>264</item11>
+        <item12>264</item12>
+        <item21>264</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>279</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item13>5</item13>
+        <item21>5</item21>
+        <item23>5</item23>
+        <item31>5</item31>
+        <item32>5</item32>
+        <item33>5</item33>
+        <result>54</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item13>5</item13>
+        <item21>5</item21>
+        <item22>5</item22>
+        <item23>5</item23>
+        <result>64</result>
+    </recipe>
+    <recipe>
+        <item11>280</item11>
+        <item12>280</item12>
+        <item13>280</item13>
+        <item22>280</item22>
+        <item31>280</item31>
+        <item32>280</item32>
+        <item33>280</item33>
+        <result count="2">65</result>
+    </recipe>
+    <recipe>
+        <item11>1</item11>
+        <item21>1</item21>
+        <item31>1</item31>
+        <result count="4">44</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item22>265</item22>
+        <item31>265</item31>
+        <result>325</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item21>5</item21>
+        <item22>5</item22>
+        <item23>280</item23>
+        <item31>5</item31>
+        <item32>5</item32>
+        <result>63</result>
+    </recipe>
+    <recipe>
+        <item12>265</item12>
+        <item13>266</item13>
+        <item21>265</item21>
+        <item22>265</item22>
+        <item23>266</item23>
+        <item32>265</item32>
+        <item33>266</item33>
+        <result>100</result>
+    </recipe>
+    <recipe>
+        <item11>402</item11>
+        <item12>5</item12>
+        <item21>402</item21>
+        <item22>5</item22>
+        <item31>402</item31>
+        <item32>5</item32>
+        <result>26</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>265</item12>
+        <item13>265</item13>
+        <item22>280</item22>
+        <item31>265</item31>
+        <item32>265</item32>
+        <item33>265</item33>
+        <result count="20">105</result>
+    </recipe>
+    <recipe>
+        <item12>265</item12>
+        <item13>265</item13>
+        <item23>265</item23>
+        <item32>265</item32>
+        <item33>265</item33>
+        <result>405</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item12>4</item12>
+        <item13>4</item13>
+        <item21>4</item21>
+        <item23>4</item23>
+        <item31>4</item31>
+        <item32>4</item32>
+        <item33>4</item33>
+        <result>61</result>
+    </recipe>
+    <recipe>
+        <item13>104</item13>
+        <item22>108</item22>
+        <item23>104</item23>
+        <item33>104</item33>
+        <result count="4">107</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>411</item12>
+        <item13>265</item13>
+        <item21>409</item21>
+        <item22>61</item22>
+        <item23>409</item23>
+        <item31>265</item31>
+        <item32>411</item32>
+        <item33>265</item33>
+        <result>106</result>
+    </recipe>
+    <recipe>
+        <item12>20</item12>
+        <item13>104</item13>
+        <item21>20</item21>
+        <item22>411</item22>
+        <item23>104</item23>
+        <item32>20</item32>
+        <item33>104</item33>
+        <result count="4">108</result>
+    </recipe>
+    <recipe>
+        <item11>410</item11>
+        <item12>410</item12>
+        <result count="16">104</result>
+    </recipe>
+    <recipe>
+        <item11>410</item11>
+        <item12>410</item12>
+        <item13>410</item13>
+        <item21>410</item21>
+        <item23>410</item23>
+        <item31>410</item31>
+        <item32>410</item32>
+        <item33>410</item33>
+        <result count="4">109</result>
+    </recipe>
+    <recipe>
+        <item12>402</item12>
+        <item13>402</item13>
+        <item22>402</item22>
+        <item32>402</item32>
+        <item33>402</item33>
+        <result>404</result>
+    </recipe>
+    <recipe>
+        <item12>104</item12>
+        <item13>104</item13>
+        <item21>104</item21>
+        <item32>104</item32>
+        <result>411</result>
+    </recipe>
+    <recipe>
+        <item11>406</item11>
+        <item12>406</item12>
+        <result>409</result>
+    </recipe>
+    <recipe>
+        <item13>5</item13>
+        <item22>5</item22>
+        <item23>5</item23>
+        <item31>5</item31>
+        <item32>5</item32>
+        <item33>5</item33>
+        <result count="4">53</result>
+    </recipe>
+    <recipe>
+        <item13>4</item13>
+        <item22>4</item22>
+        <item23>4</item23>
+        <item31>4</item31>
+        <item32>4</item32>
+        <item33>4</item33>
+        <result count="4">51</result>
+    </recipe>
+    <recipe>
+        <item13>45</item13>
+        <item22>45</item22>
+        <item23>45</item23>
+        <item31>45</item31>
+        <item32>45</item32>
+        <item33>45</item33>
+        <result count="4">52</result>
+    </recipe>
+    <recipe>
+        <item11>280</item11>
+        <item12>280</item12>
+        <item21>280</item21>
+        <item22>280</item22>
+        <item31>280</item31>
+        <item32>280</item32>
+        <result count="2">85</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item21>5</item21>
+        <item31>5</item31>
+        <result count="4">43</result>
+    </recipe>
+    <recipe>
+        <item11>4</item11>
+        <item21>4</item21>
+        <item31>4</item31>
+        <result count="4">40</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item21>280</item21>
+        <item22>280</item22>
+        <item23>280</item23>
+        <result>300</result>
+    </recipe>
+    <recipe>
+        <item11>265</item11>
+        <item12>265</item12>
+        <item13>265</item13>
+        <item21>265</item21>
+        <item23>265</item23>
+        <item31>265</item31>
+        <item32>265</item32>
+        <item33>265</item33>
+        <result>118</result>
+    </recipe>
+    <recipe>
+        <item11>162</item11>
+        <result count="4">192</result>
+    </recipe>
+    <recipe>
+        <item11>166</item11>
+        <result count="4">193</result>
+    </recipe>
+    <recipe>
+        <item11>168</item11>
+        <result count="4">194</result>
+    </recipe>
+    <recipe>
+        <item11>45</item11>
+        <item21>45</item21>
+        <item31>45</item31>
+        <result count="4">173</result>
+    </recipe>
+    <recipe>
+        <item13>174</item13>
+        <item22>174</item22>
+        <item23>174</item23>
+        <item31>174</item31>
+        <item32>174</item32>
+        <item33>174</item33>
+        <result count="4">51</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item21>174</item21>
+        <item31>174</item31>
+        <result count="4">40</result>
+    </recipe>
+    <recipe>
+        <item11>160</item11>
+        <item12>160</item12>
+        <item13>160</item13>
+        <item21>160</item21>
+        <item22>160</item22>
+        <item23>160</item23>
+        <item31>160</item31>
+        <item32>160</item32>
+        <item33>160</item33>
+        <result count="4">45</result>
+    </recipe>
+    <recipe>
+        <item13>192</item13>
+        <item22>192</item22>
+        <item23>192</item23>
+        <item31>192</item31>
+        <item32>192</item32>
+        <item33>192</item33>
+        <result count="4">176</result>
+    </recipe>
+    <recipe>
+        <item13>193</item13>
+        <item22>193</item22>
+        <item23>193</item23>
+        <item31>193</item31>
+        <item32>193</item32>
+        <item33>193</item33>
+        <result count="4">177</result>
+    </recipe>
+    <recipe>
+        <item13>194</item13>
+        <item22>194</item22>
+        <item23>194</item23>
+        <item31>194</item31>
+        <item32>194</item32>
+        <item33>194</item33>
+        <result count="4">178</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item21>192</item21>
+        <item31>192</item31>
+        <result count="4">179</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item21>193</item21>
+        <item31>193</item31>
+        <result count="4">180</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item21>194</item21>
+        <item31>194</item31>
+        <result count="4">181</result>
+    </recipe>
+    <recipe>
+        <item11>410</item11>
+        <item12>410</item12>
+        <item13>410</item13>
+        <item21>410</item21>
+        <item22>410</item22>
+        <item23>410</item23>
+        <item31>410</item31>
+        <item32>410</item32>
+        <item33>410</item33>
+        <result>203</result>
+    </recipe>
+    <recipe>
+        <item22>280</item22>
+        <item31>419</item31>
+        <result>412</result>
+    </recipe>
+    <recipe>
+        <item11>160</item11>
+        <item21>160</item21>
+        <item31>160</item31>
+        <result count="4">197</result>
+    </recipe>
+    <recipe>
+        <item13>160</item13>
+        <item22>160</item22>
+        <item23>160</item23>
+        <item31>160</item31>
+        <item32>160</item32>
+        <item33>160</item33>
+        <result count="4">198</result>
+    </recipe>
+    <recipe>
+        <item11>171</item11>
+        <item21>171</item21>
+        <item31>171</item31>
+        <result count="4">199</result>
+    </recipe>
+    <recipe>
+        <item13>171</item13>
+        <item22>171</item22>
+        <item23>171</item23>
+        <item31>171</item31>
+        <item32>171</item32>
+        <item33>171</item33>
+        <result count="4">200</result>
+    </recipe>
+    <recipe>
+        <item11>159</item11>
+        <item21>159</item21>
+        <item31>159</item31>
+        <result count="4">201</result>
+    </recipe>
+    <recipe>
+        <item13>159</item13>
+        <item22>159</item22>
+        <item23>159</item23>
+        <item31>159</item31>
+        <item32>159</item32>
+        <item33>159</item33>
+        <result count="4">202</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <item21>192</item21>
+        <item22>192</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <item21>193</item21>
+        <item22>193</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <item21>194</item21>
+        <item22>194</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>174</item11>
+        <item12>174</item12>
+        <item13>174</item13>
+        <item21>174</item21>
+        <item23>174</item23>
+        <item31>174</item31>
+        <item32>174</item32>
+        <item33>174</item33>
+        <result>61</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+</recipes>

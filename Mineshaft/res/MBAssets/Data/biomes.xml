@@ -1,0 +1,162 @@
+<biomes>
+	<biome id="0" name="ocean">
+        <top>169</top>
+		<below>24</below>
+		<spawn id="0">90</spawn>
+		<spawn id="1">10</spawn>
+	</biome>
+
+    <biome id="1" name="plains">
+		<patch bias="0.5" scale="8" map="2.1">175</patch>
+
+        <top depth="1">2</top>
+        <below depth="3">3</below>
+
+        <spawn id="0">10</spawn>
+        <spawn id="1">10</spawn>
+        <spawn id="2">10</spawn>
+        <spawn id="3">10</spawn>
+        <spawn id="4">10</spawn>
+        <spawn id="6">10</spawn>
+        <spawn id="7">10</spawn>
+        <spawn id="8">10</spawn>
+        <spawn id="9">10</spawn>
+
+        <natural>
+            <structure occur="5">temperate1</structure>
+            <structure occur="5">temperate2</structure>
+			<structure occur="5">temperate3</structure>
+			<structure occur="3">flowers1</structure>
+			<structure occur="3">flowers2</structure>
+			<structure occur="3">flowers3</structure>
+			<structure occur="3">flowers4</structure>
+        </natural>
+
+        <village>
+			<chest max="14">
+				<item occur="40">256</item>
+				<item occur="40">257</item>
+				<item occur="40">258</item>
+				<item occur="40">267</item>
+				<item occur="20">326</item>
+				<item occur="40">385</item>
+				<item occur="80">59</item>
+				<item occur="80">113</item>
+				<item occur="80">112</item>
+				<item occur="80">103</item>
+			</chest>
+
+            <structure>house1</structure>
+			<structure>house2</structure>
+			<structure>house3</structure>
+			<structure>house4</structure>
+            <structure max="2">farm1</structure>
+			<structure max="2">farm2</structure>
+			<structure min="1" max="1">blacksmith1</structure>
+			<structure min="1" max="1">church</structure>
+			<structure min="1" max="1">tower</structure>
+        </village>
+    </biome>
+
+    <biome id="2" name="taiga">
+        <top>204</top>
+        <below>3</below>
+        
+        <spawn id="1">30</spawn>
+        <spawn id="2">70</spawn>
+
+        <natural>
+            <structure occur="60">taiga1</structure>
+            <structure occur="60">taiga2</structure>
+            <structure occur="60">taiga3</structure>
+			<structure occur="60">taiga4</structure>
+			<structure occur="130">shrub4</structure>
+        </natural>
+    </biome>
+
+    <biome id="3" name="rainforest">
+        <top>152</top>
+		<below>3</below>
+       
+        <spawn id="1">30</spawn>
+        <spawn id="3">50</spawn>
+        
+        <natural>
+            <structure occur="150">temperate1</structure>
+            <structure occur="150">temperate2</structure>
+			<structure occur="150">temperate3</structure>
+        </natural>
+    </biome>
+
+    <biome id="4" name="scrubland">
+        <top>163</top>
+		<below>3</below>
+        
+        <patch bias="0.2" scale="9" map="2.1">164</patch>
+        <patch bias="0.2" scale="9" map="2.9">165</patch>
+        
+        <spawn id="1">50</spawn>
+        <spawn id="4">50</spawn>
+        
+        <natural>
+			<structure occur="130">shrub1</structure>
+			<structure occur="130">shrub2</structure>
+        </natural>
+    </biome>
+
+    <biome id="6" name="desert">
+        <top>12</top>
+		<below>24</below>
+        
+        <patch bias="0.6" scale="40">169</patch>
+        
+        <spawn id="1">50</spawn>
+        <spawn id="6">50</spawn>
+        
+        <natural>
+			<structure occur="5">cactus1</structure>
+			<structure occur="5">cactus2</structure>
+			<structure occur="5">cactus3</structure>
+			<structure occur="5">cactus4</structure>
+        </natural>
+    </biome>
+
+    <biome id="7" name="badlands">
+        <spawn id="1">50</spawn>
+        <spawn id="7">50</spawn>
+        
+        <natural>
+        </natural>
+    </biome>
+
+    <biome id="8" name="savanna">
+        <top>153</top>
+        
+        <spawn id="1">50</spawn>
+        <spawn id="8">50</spawn>
+        
+        <natural>
+            <structure occur="9">savanna1</structure>
+            <structure occur="9">savanna2</structure>
+			<structure occur="9">savanna3</structure>
+        </natural>
+    </biome>
+
+    <biome id="9" name="tundra">
+        <top>158</top>
+        
+        <patch bias="0.5" scale="4" map="3.1">156</patch>
+        <patch bias="0.3" scale="4" map="3.5">157</patch>
+        
+        <spawn id="1">50</spawn>
+        <spawn id="9">50</spawn>
+        
+        <natural>
+			<structure occur="160">shrub3</structure>
+			<structure occur="5">boulder1</structure>
+			<structure occur="5">boulder2</structure>
+			<structure occur="5">boulder3</structure>
+			<structure occur="5">boulder4</structure>
+        </natural>
+    </biome>
+</biomes>

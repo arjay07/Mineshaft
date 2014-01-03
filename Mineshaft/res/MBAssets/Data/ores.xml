@@ -1,0 +1,49 @@
+<ores>
+    <ore id="14">
+        <deepest>8</deepest>
+        <highest>15</highest>
+        <smallest>4</smallest>
+        <largest>10</largest>
+        <rarity>450</rarity>
+    </ore>
+    
+    <ore id="15">
+        <deepest>6</deepest>
+        <highest>50</highest>
+        <smallest>4</smallest>
+        <largest>8</largest>
+        <rarity>150</rarity>
+    </ore>
+    
+    <ore id="16">
+        <deepest>12</deepest>
+        <highest>75</highest>
+        <smallest>4</smallest>
+        <largest>10</largest>
+        <rarity>50</rarity>
+    </ore>
+    
+    <ore id="56">
+        <deepest>8</deepest>
+        <highest>14</highest>
+        <smallest>1</smallest>
+        <largest>4</largest>
+        <rarity>500</rarity>
+    </ore>
+    
+    <ore id="110">
+        <deepest>10</deepest>
+        <highest>35</highest>
+        <smallest>2</smallest>
+        <largest>6</largest>
+        <rarity>200</rarity>
+    </ore>
+    
+    <ore id="111">
+        <deepest>10</deepest>
+        <highest>30</highest>
+        <smallest>2</smallest>
+        <largest>6</largest>
+        <rarity>230</rarity>
+    </ore>
+</ores>

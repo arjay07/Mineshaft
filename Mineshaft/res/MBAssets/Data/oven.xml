@@ -1,0 +1,145 @@
+<recipes>
+    <layout>
+        <slot type = "input" x="150" y="165" size="48">fuelslot</slot>
+        <slot type = "input" x="114" y="101" size="64">itemslot</slot>
+        <slot type = "input" x="186" y="101" size="64">itemslot2</slot>
+        <slot type = "output" x="286" y="121" size="64">result</slot>
+        <alias>
+            <slot orig = "fuelslot">fuelslot</slot>
+            <slot orig = "itemslot">itemslot2</slot>
+            <slot orig = "itemslot2">itemslot</slot>
+        </alias>
+    </layout>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>4</itemslot>
+        <result>1</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>15</itemslot>
+        <result>265</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>14</itemslot>
+        <result>266</result>
+    </recipe>
+    <recipe>
+        <itemslot>5</itemslot>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <itemslot>17</itemslot>
+        <result count="3">400</result>
+    </recipe>
+    <recipe>
+        <itemslot>6</itemslot>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <itemslot>263</itemslot>
+        <result count="8">400</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>17</itemslot>
+        <result>263</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>12</itemslot>
+        <result>20</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>110</itemslot>
+        <result>410</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>59</itemslot>
+        <itemslot2>59</itemslot2>
+        <result>414</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>113</itemslot>
+        <result count="8">415</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>326</itemslot>
+        <itemslot2>103</itemslot2>
+        <result>413</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>174</itemslot>
+        <result>1</result>
+    </recipe>
+    <recipe>
+        <itemslot>192</itemslot>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <itemslot>193</itemslot>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <itemslot>194</itemslot>
+        <result>400</result>
+    </recipe>
+    <recipe>
+        <itemslot>162</itemslot>
+        <result count="3">400</result>
+    </recipe>
+    <recipe>
+        <itemslot>166</itemslot>
+        <result count="3">400</result>
+    </recipe>
+    <recipe>
+        <itemslot>168</itemslot>
+        <result count="3">400</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>166</itemslot>
+        <result>263</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>168</itemslot>
+        <result>263</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>162</itemslot>
+        <result>263</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>425</itemslot>
+        <result>421</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>427</itemslot>
+        <result>422</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>426</itemslot>
+        <result>423</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>171</itemslot>
+        <result>160</result>
+    </recipe>
+    <recipe>
+        <fuelslot>400</fuelslot>
+        <itemslot>170</itemslot>
+        <result>159</result>
+    </recipe>
+</recipes>

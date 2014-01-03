@@ -1,0 +1,166 @@
+<recipes>
+    <layout>
+        <slot type = "input" x="118" y="97" size="48">item11</slot>
+        <slot type = "input" x="118" y="145" size="48">item12</slot>
+        <slot type = "input" x="166" y="97" size="48">item21</slot>
+        <slot type = "input" x="166" y="145" size="48">item22</slot>
+        <slot type = "output" x="286" y="121" size="64">result</slot>
+        <alias>
+            <slot orig = "item11">item21</slot>
+            <slot orig = "item12">item22</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item12</slot>
+            <slot orig = "item21">item22</slot>
+        </alias>
+        <alias>
+            <slot orig = "item11">item22</slot>
+        </alias>
+    </layout>
+    <recipe>
+        <item11>401</item11>
+        <item12>401</item12>
+        <item21>401</item21>
+        <item22>401</item22>
+        <result>46</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>263</item11>
+        <item12>280</item12>
+        <result count="4">50</result>
+    </recipe>
+    <recipe>
+        <item11>17</item11>
+        <result count="4">5</result>
+    </recipe>
+    <recipe>
+        <item11>162</item11>
+        <result count="4">192</result>
+    </recipe>
+    <recipe>
+        <item11>166</item11>
+        <result count="4">193</result>
+    </recipe>
+    <recipe>
+        <item11>168</item11>
+        <result count="4">194</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>5</item12>
+        <item21>5</item21>
+        <item22>5</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>410</item11>
+        <item12>410</item12>
+        <result count="16">104</result>
+    </recipe>
+    <recipe>
+        <item11>406</item11>
+        <item12>406</item12>
+        <result>409</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>192</item12>
+        <item21>192</item21>
+        <item22>192</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>193</item12>
+        <item21>193</item21>
+        <item22>193</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>194</item12>
+        <item21>194</item21>
+        <item22>194</item22>
+        <result>58</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>192</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>192</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>193</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>193</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>194</item11>
+        <item12>5</item12>
+        <result count="4">280</result>
+    </recipe>
+    <recipe>
+        <item11>5</item11>
+        <item12>194</item12>
+        <result count="4">280</result>
+    </recipe>
+</recipes>
